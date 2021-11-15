@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    min-height: 1000px;
+} */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    z-index: 20000;
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    height: 55px;
+    padding-left: 20px;
+}
+
+/* .navbar-nav {
+    margin-left: auto;
+} */
+
+.navbar-nav li a {
+    float: right;
+    color: #555555 !important;
+    font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+    color: #ff9000 !important;
+    font-weight: 600;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+/* slider */
+#slider {
+    width: 100%;
+    position: relative;
+}
+
+/* #headerslider {
+    height: 90vh;
+    background-size: cover;
+} */
+
+.carousel-inner {
+    height: 90vh;
+    background-size: cover;
+}
+
+.carousel-caption {
+    z-index: 2000;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+/* about us */
+#about {
+    padding: 50px 0;
+    color: #555555;
+}
+
+.progress-bar {
+    background-color: #ff9000 !important;
+    border-radius: 20px;
+}
+
+.progress {
+    border-radius: 20px !important;
+    margin-bottom: 25px;
+}
+
+.progress-space p {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* services */
+#services {
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/12.jpg);
+    color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#services h1 {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+#services h1::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    height: 3px;
+    width: 180px;
+    margin: 10px auto;
+}
+
+#services .icon {
+    font-size: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+#services p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.service-hover .col-md-3:hover {
+    background-color: #ff9000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* our teams */
+#teams {
+    padding: 50px 0;
+    color: #555555;
+}
+
+/* repeat H1 */
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: #111;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    background-color: #ff9000;
+    height: 3px;
+    width: 180px;
+    margin: 10px auto;
+}
+
+#teams .fab {
+    color: #ff9000;
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    margin-top: 25px;
+}
+
+.profile-pic .imgbox img {
+    filter: grayscale(1);
+}
+
+.profile-pic .imgbox img:hover {
+    filter: grayscale(0);
+}
+
+.profile-pic .imgbox ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.profile-pic .imgbox {
+    position: relative;
+    display: block;
+}
+
+.profile-pic .imgbox ul {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    opacity: 0;
+}
+
+.profile-pic .imgbox:hover ul {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.profile-pic h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ff9000;
+    margin-top: 15px;
+}
+
+.profile-pic h3 {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-top: 10px;
+}

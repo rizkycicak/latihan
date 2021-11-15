@@ -1,0 +1,70 @@
+#harga {
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/12.jpg);
+    color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+button {
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 46.5%;
+}
+
+
+#harga h2 {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: #111;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    background-color: #ff9000;
+    height: 3px;
+    width: 180px;
+    margin: 10px auto;
+}
+
+#listharga {
+    background-color: #c3c3c2;
+}
+
+#listharga .judulharga {
+    width: auto;
+    background-color: #ff9000;
+}
+
+p {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.btn btn-primary {
+    background-color: #ff9000 imn !important;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
